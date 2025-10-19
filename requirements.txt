@@ -1,0 +1,15 @@
+# Core app
+streamlit==1.38.0
+pandas==2.2.2
+
+# Needed by pandas on Py3.12 (and cross-platform wheels available)
+numpy>=2.0.0
+
+# PDF text extraction (PyMuPDF)
+PyMuPDF==1.24.9
+
+# Gemini SDK
+google-generativeai>=0.7.2
+
+# Imaging (used by PyMuPDF / general PDF handling)
+pillow>=10.3.0
