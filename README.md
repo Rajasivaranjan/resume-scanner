@@ -1,13 +1,7 @@
-# resume-scanner
-Resume Scanner: Streamlit + Gemini app to screen a folder of PDF resumes against a Job Description. Extracts text, scores candidates (0–100) based on skills, experience, impact, clarity, and bonus fit, then ranks them. Exports summary.csv, report.md, full_results.json, plus a one-click ZIP download.
-
-
 # Resume Scanner
 
 Screen a **folder of PDF resumes** against a **Job Description** using **Streamlit + Google Gemini**.
 The app extracts text from PDFs, scores each candidate on a transparent rubric, and returns a **ranked shortlist** with **downloadable artifacts** (CSV, Markdown report, JSON, ZIP).
-
-> **Why?** First-pass resume review shouldn’t take hours—or be a black box. Resume Scanner is fast, auditable, and easy to run locally.
 
 ---
 
